@@ -22,7 +22,7 @@ const AnimeCard = ({ index, anime }: AnimeCardProps) => {
     <div className="max-w-sm w-full rounded relative">
       <div className="relative w-full h-[37vh]">
         <Image
-          src={anime.image.original}
+          src={`https://shikimori.one${anime.image.original}`}
           alt={anime.name}
           fill
           className="rounded-xl"
